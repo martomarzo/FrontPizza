@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+* {
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    margin: 0%;
+}
+nav{
+    background-color: #222222;
+    color: white;
+    width: auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    
+
+}
+body{
+    background-color: #E5E5E5;
+   
+}
+.menu{
+    display: flex;
+    width: 500px;
+    font-size: 16px;
+    justify-content: space-around;
+    align-items: center;
+  
+    
+}
+main{
+    display: flex;
+    justify-content: space-around;
+    margin: 50px
+
+}
+main .envioPizzas{
+    background-image: url("../img/delivery.jpg");
+    background-size: cover;
+    height: 350px;
+    width: auto;
+    color: #FC200C;
+   
+    
+}
+main .envioPizzas span{
+    color: white;
+}
+main .envioPizzas h2{
+    padding: 20px;
+
+}
+
+main .podioPizzas{
+    background-color: white;
+    height: 350px;
+    width: 491px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    font-weight: 700;
+   
+}
+main .podioPizzas h2{
+    color: #FC200C;
+}
+main .podioPizzas ol{
+    align-self: flex-start;
+}
+main .podioPizzas p {
+    align-self: flex-start;
+    margin-left: 40px;
+}
+main .podioPizzas img{
+    width: 92px;
+    height: 129px;
+    align-self: flex-end;
+}
+
+footer{
+    background-color: #222222;
+    height: 150px;
+    color: #F3F3F3;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 40px;
+}
+footer ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    
+}
+footer img{
+    margin: 10px;
+}
