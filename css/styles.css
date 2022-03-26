@@ -5,6 +5,10 @@
     font-family: 'Roboto', sans-serif;
     margin: 0%;
 }
+body{
+    background-color: #E5E5E5;
+   
+}
 nav{
     background-color: #222222;
     color: white;
@@ -12,13 +16,8 @@ nav{
     display: flex;
     justify-content: space-between;
     padding: 20px;
-    
+    }
 
-}
-body{
-    background-color: #E5E5E5;
-   
-}
 .menu{
     display: flex;
     width: 500px;
@@ -26,7 +25,6 @@ body{
     justify-content: space-around;
     align-items: center;
   
-    
 }
 main{
     display: flex;
@@ -37,10 +35,9 @@ main{
 main .envioPizzas{
     background-image: url("../img/delivery.jpg");
     background-size: cover;
-    height: 350px;
-    width: auto;
+    height: 500px;
+    width: 50%;
     color: #FC200C;
-   
     
 }
 main .envioPizzas span{
@@ -53,8 +50,8 @@ main .envioPizzas h2{
 
 main .podioPizzas{
     background-color: white;
-    height: 350px;
-    width: 491px;
+    height: 500px;
+    width: 50%;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -90,8 +87,7 @@ footer ul{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-
-    
+    list-style-type: none;
 }
 footer img{
     margin: 10px;
